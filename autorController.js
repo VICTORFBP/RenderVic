@@ -1,5 +1,5 @@
 // autorController.js
-const pool = require('../db');
+const pool = require('./db');
 
 // ✅ Obtener todos los autores
 exports.obtenerAutores = async (req, res) => {
