@@ -1,7 +1,7 @@
 {
   "name": "ia-crud",
   "version": "1.0.0",
-  "main": "autorController.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "mysql2": "^3.15.3"
+    "pg": "^8.11.3"
   },
   "devDependencies": {},
   "description": ""
