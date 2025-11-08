@@ -162,7 +162,9 @@
 
     </div>
 <script>
-    const API_BASE_URL = 'http://localhost:3000/api/autores';
+    const API_BASE_URL = window.location.hostname.includes('localhost')
+  ? 'http://localhost:3000/api/autores'
+  : 'https://rendervic.onrender.com/api/autores';
     const autorForm = document.getElementById('autorForm');
     const tableBody = document.querySelector('.table-container tbody');
 
